@@ -10,7 +10,8 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
