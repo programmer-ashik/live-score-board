@@ -38,7 +38,7 @@ export default function ScoreboardWidget() {
 
   const logoHtml = activeTeam.logo
     ? `<img src="${activeTeam.logo}" class="w-10 h-10 object-cover rounded-full" alt="logo">`
-    : `<div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-sm font-bold">${activeTeam.short}</div>`;
+    : `<div class="w-10 h-10 rounded-full bg-orange-800 flex items-center justify-center text-sm font-bold">${activeTeam.short}</div>`;
 
   const theme = state.themeStyle;
 
